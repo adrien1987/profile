@@ -1,0 +1,134 @@
+body {
+  background: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #484848;
+  font-size: 15px;
+  line-height: 1.6e
+}
+
+#presentation {
+  color: #386fab;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  line-height: 150%;
+  color: rgb(62, 62, 62);
+  padding:
+  font-size: 25px;
+  font-weight: 700;
+}
+
+a {
+ color: rgb(122, 122, 122);
+ text-decoration: none;
+}
+
+.table-padding {
+  margin: 30px
+}
+
+.table-padding > h3 {
+  font-size: 16px;
+  color: rgb(72, 72, 72)
+
+
+}
+
+.h2-padding {
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.fa-linkedin {
+  font-size: 50px;
+}
+
+.fa-facebook{
+  font-size: 50px;
+}
+
+img {
+  width: 150px;
+}
+
+.img-circle {
+  width: 150px;
+}
+
+#img-profile {
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+  padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+  text-align: justify;
+  padding: 5px;
+}
+
+#bnt-blue {
+  padding: 10px;
+  background-color: #228ae6;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+a#bnt-blue:hover {
+  background-color: #386fab;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
